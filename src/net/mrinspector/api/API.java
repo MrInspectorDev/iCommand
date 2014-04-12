@@ -18,7 +18,7 @@ public class API {
 	Send a message to the console with this method: API.debugConsole("your debug message here");
 	*/
 	public static void debugConsole(String msg) {
-		Bukkit.broadcastMessage(msg);
+		System.out.println(msg);
 	}
 	
 	/*
