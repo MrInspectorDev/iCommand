@@ -1,0 +1,7 @@
+name: iCommand
+main: net.mrinspector.icommand.iCommand
+version: 1.0.0
+author: MrInspector
+commands:
+    ext:
+     permission: icommand.ext
