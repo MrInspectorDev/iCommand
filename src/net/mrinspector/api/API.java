@@ -123,7 +123,8 @@ public class API {
 	 * Method is unfinished.
 	 * @param player
 	 */
-	public static void ban(Player player) {
+	public static void ban(Player player, String banmsg) {
+		p.kickPlayer(banmsg);
 		player.setBanned(true);
 	}
 	
